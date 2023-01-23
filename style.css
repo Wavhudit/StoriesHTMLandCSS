@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+    margin: 2%;
+}
+
+nav{
+    background-color: #1F2937;
+}
+ol{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.logoli{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+.landingpg{
+    background-color: #1F2937;
+}
+.maincontent{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.mainheading{
+    color: #F9FAF8;
+    font-size:48px;
+    font-weight: bolder;
+}
+
+.headingtext{
+    color: #e5e7eb;
+}
+
+.landingbtn{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
+.landingbtn:hover{
+    background-color: #e5e7eb;
+    color: #3882F6;
+}
+.maincontent img{
+    height: auto;
+    width: 100%;
+    border-radius: 5%;
+}
+.calltoaction{
+    background-color: #3882F6;
+    padding: 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calltoactionbtn{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #F9FAF8;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    flex: 0;
+}
+.calltoactionbtn:hover{
+    color: #1F2937; 
+    border-color: #1F2937;
+}
+.calltoaction h3{
+    color: #F9FAF8;
+    text-align: left;
+    flex: 1;
+}
+
+.calltoaction p{
+    color: #e5e7eb;
+}
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+.icon{
+    height: auto;
+    width: 1%;
+}
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+}
+img{
+    height: auto;
+    width: 20%;
+}
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
