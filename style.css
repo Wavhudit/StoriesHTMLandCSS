@@ -57,6 +57,10 @@ ol{
     color: #e5e7eb;
 }
 
+aside{
+margin-right: auto;
+}
+
 .landingbtn{
     background-color: #3882F6;
     border: none;
@@ -123,7 +127,7 @@ footer p{
 }
 img{
     height: auto;
-    width: 20%;
+    width: 100%;
 }
 .quote {
     background-color: #E5E7EB;
