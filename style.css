@@ -17,8 +17,11 @@
 *{
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
-    margin: 2%;
+    margin: 0;
+    overflow-x: hidden;
 }
+
+
 
 nav{
     background-color: #1F2937;
@@ -75,8 +78,10 @@ margin-right: auto;
 }
 .maincontent img{
     height: auto;
-    width: 100%;
+    width: 200px;
     border-radius: 5%;
+    object-fit: cover;
+    
 }
 .calltoaction{
     background-color: #3882F6;
@@ -135,4 +140,4 @@ img{
     font-style: italic;
     text-align: center;
     padding: 5px;
-}
+} 
