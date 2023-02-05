@@ -21,19 +21,34 @@
     overflow-x: hidden;
 }
 
-
+.landingpg{
+    background-color: #1F2937;
+}
 
 nav{
     background-color: #1F2937;
 }
-ol{
-    display: flex;
+
+.navelement{
     list-style: none;
-    padding: 2px;
-    align-items: flex-start;
-    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: aliceblue;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+
 }
-.logoli{
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: flex-start;
+    padding: 10px;
+} 
+
+/* .logoli{
     display: flex;
     flex-direction: row;
 }
@@ -41,15 +56,44 @@ ol{
     color: #F9FAF8;
     font-size: 24px;
     justify-content: flex-start;
-}
-.landingpg{
+} */
+/* ;;;;;;;;;;;;;;;;;;;; */
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  } */
+
+
+
+/* '''''''''''''''''''''''''''''' */
+
+/* .landingpg{
     background-color: #1F2937;
 }
-.maincontent{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
+
 .mainheading{
     color: #F9FAF8;
     font-size:48px;
@@ -76,12 +120,26 @@ margin-right: auto;
     background-color: #e5e7eb;
     color: #3882F6;
 }
-.maincontent img{
+
+.contentA{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 1000px 20px 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contentA img{
     height: auto;
-    width: 200px;
+    width: 150px;
     border-radius: 5%;
     object-fit: cover;
     
+}
+
+.containerA {
+    height: auto;
+    width: 150px;
 }
 .calltoaction{
     background-color: #3882F6;
@@ -140,4 +198,4 @@ img{
     font-style: italic;
     text-align: center;
     padding: 5px;
-} 
+}  */
