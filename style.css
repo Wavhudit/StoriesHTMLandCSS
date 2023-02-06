@@ -20,20 +20,16 @@
     margin: 0;
     overflow-x: hidden;
 }
-
 .landingpg{
     background-color: #1F2937;
     padding-left: 6%;
     padding-right: 6%;
-
 }
-
 nav{
     background-color: #1F2937;
     margin: 0;
     padding: 0;
 }
-
 .navelement{
     padding: 20px;
     color: #F9FAF8;
@@ -41,7 +37,6 @@ nav{
     float: right;
     text-align: center;
 }
-
 .navelement:hover{
     text-decoration: underline;
     text-decoration-color: #F9FAF8;
@@ -57,14 +52,12 @@ nav{
     text-align: center;
     overflow: hidden;
 } 
-
 .container1{
     display: flex;
     justify-content: space-between;
     padding-bottom:  80PX;
     padding-top:  50PX;
 }
-
 .calltoaction{
     width: 3500px;
     align-items: center;   
@@ -73,20 +66,16 @@ nav{
 aside img{
     height: auto;
     max-width: 100%;
-    /* width: 3500px; */
 }
-
 .main{
     color: #F9FAF8;
     font-size:48px;
     font-weight: bolder;
 }
-
 .secondary{
     color: #e5e7eb;
     padding-bottom: 20px;
 }
-
 .landingbtn{
     background-color: #3882F6;
     border: none;
@@ -99,7 +88,6 @@ aside img{
     background-color: #e5e7eb;
     color: #3882F6;
 }
-
 .secondpage{
     padding-left: 12%;
     padding-right: 12%;
@@ -116,10 +104,11 @@ aside img{
     height: auto;
     width: 150px;
     border-radius: 5%;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
-
+.contentA img:hover{
+    opacity: 0.9;
+}
 .containerA {
     height: auto;
     width: 150px;
@@ -130,17 +119,51 @@ aside img{
     text-align: center;
     padding: 12px;
     padding-top: 15px;
-
 }
-/* BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB */
-
-/* h2{
-
-} */
-.icon{
-    height: auto;
-    width: 1%;
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+    padding: 50px;
+} 
+.myfigcation{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 410px;
 }
+.calltoactionII{
+    background-color: #3882F6;
+    padding: 2% 5%;
+    margin: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    display: flex;
+}
+.calltoactionbtnII{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #F9FAF8;
+    color: white;
+    padding: 10px 50px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.calltoactionbtnII:hover{
+    color: #1F2937; 
+    border-color: #1F2937;
+}
+.calltoactionII h3{
+    color: #F9FAF8;
+    text-align: left;
+}
+
+.calltoactionII p{
+    color: #e5e7eb;
+}
+
 footer{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -149,102 +172,13 @@ footer{
 footer p{
     text-align: center;
 }
-img{
-    height: auto;
-    width: 100%;
-}
-.quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-style: italic;
-    text-align: center;
-    padding: 5px;
-}  
-/* .logoli{
-    display: flex;
-    flex-direction: row;
-}
-.logo{
-    color: #F9FAF8;
-    font-size: 24px;
-    justify-content: flex-start;
-} */
-/* ;;;;;;;;;;;;;;;;;;;; */
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  } */
-
-
-
-/* '''''''''''''''''''''''''''''' */
-
-/* .landingpg{
-    background-color: #1F2937;
-}
-
-
-
-aside{
-margin-right: auto;
-}
 
 
 
 
-.calltoaction{
-    background-color: #3882F6;
-    padding: 2% 5%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.calltoactionbtn{
-    background-color: #3882F6;
-    border-radius: 10px;
-    border-style:solid;
-    border-color: #F9FAF8;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    cursor: pointer;
-    flex: 0;
-}
-.calltoactionbtn:hover{
-    color: #1F2937; 
-    border-color: #1F2937;
-}
-.calltoaction h3{
-    color: #F9FAF8;
-    text-align: left;
-    flex: 1;
-}
 
-.calltoaction p{
-    color: #e5e7eb;
-}
+
+
 
 
 
